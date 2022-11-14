@@ -7,5 +7,18 @@ import github from "./github.png"
 import html from "./html.jpeg"
 import java from "./java.jpeg"
 import css from "./css.jpeg"
+import skilvul1 from "./skilvul1.jpeg"
+import skilvul2 from "./skilvul2.jpeg"
 
-export {dino, images, petanicode, w3school, skilvul, github, html, css, java}
+export {dino, 
+    images, 
+    petanicode,
+     w3school,
+      skilvul, 
+      github, 
+      html, 
+      css, 
+      java, 
+      skilvul1,
+    skilvul2
+};

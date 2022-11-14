@@ -1,23 +1,27 @@
 body{
   margin: 0;
   padding: 0;
+  font-size: 18px;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 h1,h2,h3,h4,h5,h6{
   margin: 0;
   padding: 0;
 }
 
+
 nav {
-  background-color: aqua;
+  background-color: rgb(144, 234, 26);
   display: flex;
   position: fixed;
   justify-content: space-between;
   align-items: center;
   z-index: 99;
-  padding: 10px 5px;
+  padding: 20px 20px;
   height: auto;
   width: 100%;
 }
@@ -26,13 +30,14 @@ ul,li,a{
 }
 nav > ul > li > a{
   text-decoration: none;
-  color: burlywood;
+  color: rgb(133, 131, 127);
   text-transform: uppercase;
   font-weight: bold;
+  
 }
 
 nav > ul > li > a:hover{
-  color: black;
+  color: rgb(156, 154, 255);
 }
 nav > ul > li{
   list-style: none;
@@ -59,7 +64,7 @@ section{
   background-color: gray;
 }
 #profile > img {
-  border-radius: 50px;
+  border-radius: 50%;
   object-fit: cover;
 }
 #profile > h2{
@@ -111,16 +116,113 @@ section{
 
 #about1{
   background-color: rgb(213, 228, 127);
+  margin: auto;
+  padding: 150px 10px;
+  min-height: 90vh;
 }
 
 #about1  h1 , p{
     text-align: center;
-    color: aqua;
-    
+    color: rgb(84, 96, 96);
+}
+#about1 > div > a > img{
+  padding: 100px;
 }
 
+
+#program div > li >a > img {
+  border-radius: 30px;
+  object-fit: cover;
+ 
+}
 #program{
-  margin: 20px;
+  margin: auto;
+  padding: 100px 10px;
+  background-color:rgb(213, 228, 127);
 }  
 
-   
+
+
+#program1{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+ float: left;
+ padding: 50px 112px;
+}
+
+#program2{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+ float: left;
+ padding: 180px 112px;
+}
+#program > div > li > a > img:hover{
+  box-shadow: 10px 20px 50px gray;
+  transition: all 0.75s;
+}
+
+#program > div > li > a > p {
+  text-align: center;
+  padding: 20px 120px;
+}
+#programimg > li > a:hover{
+  transition: all 0.75s;
+  transform: scale(110%);
+  z-index: 99;
+  
+}
+
+#about3{
+  background-color: rgb(213, 228, 127);
+  margin: 0;
+  padding:150px 30px;
+}
+
+#gambar2{
+  padding:150px 0px;
+}
+#about3 > div > li {
+  list-style: none;
+}
+
+#login{
+  position: relative;
+  left: 68%;
+  top: 100%;
+  padding: 20px 30px;
+  width: 300px;
+  background-color: rgba(0,0,0,.7);
+  box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+#h1-login{
+  color: #e0e0e0;
+  margin-bottom: 30px;
+  border-bottom: 4px solid rgb(213, 228, 127);
+}
+#login label{
+  text-align: left;
+  color: #e0e0e0;
+}
+#login  input{
+    padding: 3px 30px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(213, 228, 127);
+    color: #fff;
+    font-size: 17px;
+}
+#login a {
+  width: 100%;
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: none;
+  background-color:rgb(213, 228, 127);
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}

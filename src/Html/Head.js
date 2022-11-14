@@ -4,11 +4,11 @@ const Head = () => {
   return (
     <nav>
         <div>
-            <h3>Surya Adi Nugroho.</h3>
+            <h3>SAN.</h3>
         </div>
-        <ul>
+        <ul id='head'>
             <li><a href='#about1'>about</a></li>
-            <li><a href='#about2'>about</a></li>
+            <li><a href='#program'>about</a></li>
             <li><a href='#about3'>about</a></li>
             </ul>    
     </nav>
